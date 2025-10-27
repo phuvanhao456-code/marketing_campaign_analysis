@@ -5,12 +5,6 @@ st.set_page_config(
     page_icon="📚"
 )
 
-st.sidebar.page_link("pages/1demographic.py", label="📈 Demographic Analysis")
-st.sidebar.page_link("pages/2spending.py", label="💰 Spending Behavior")
-st.sidebar.page_link("pages/3campaign.py", label="🎯 Campaign Performance")
-st.sidebar.page_link("pages/4multi.py", label="🔗 Multi-channel Overview")
-st.sidebar.page_link("pages/summary.py", label="🧾 Summary Report")
-
 st.header('📚 Tóm tắt & báo cáo phân tích khách hàng và nhóm chiến dịch Marketing')
 
 st.subheader('1) Tổng quan dữ liệu')
@@ -182,4 +176,5 @@ st.write('''
         * Các chương trình bán kèm theo combo sản phẩm, các chương trình VM sản phẩm, bán chéo dựa vào nhu cầu mua sắm của khách hàng.
         * Gia tăng thêm mật độ phủ của các kênh phân phối tại cửa hàng, gia tăng các chương trình chào bán các sản phẩm nhu yếu phẩm thiết yếu.
         ''')
+
 
