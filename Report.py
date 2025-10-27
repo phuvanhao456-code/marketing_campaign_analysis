@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 st.set_page_config(
     page_title="Tóm tắt & báo cáo phân tích khách hàng và nhóm chiến dịch Marketing",
@@ -176,5 +179,6 @@ st.write('''
         * Các chương trình bán kèm theo combo sản phẩm, các chương trình VM sản phẩm, bán chéo dựa vào nhu cầu mua sắm của khách hàng.
         * Gia tăng thêm mật độ phủ của các kênh phân phối tại cửa hàng, gia tăng các chương trình chào bán các sản phẩm nhu yếu phẩm thiết yếu.
         ''')
+
 
 
